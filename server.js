@@ -31,7 +31,7 @@ app.use(require('./server2'));
 
 //process.env.PORT
 //cloud port (heroku, azure have different port)
-var por = process.env.PORT || 3000;
+var port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log('Example app listening on port 3000!');
 });
